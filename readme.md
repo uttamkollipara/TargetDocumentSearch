@@ -18,6 +18,7 @@ Inputs- enter the Search word and when asked select the type of search
 runs 2M queries using terms from the text file-searchWords.txt
 
 Performance Test Results
+
 1.Which approach is fastest?
 Indexed Search
 
@@ -25,4 +26,5 @@ Indexed Search
 For indexed search we preprocess the data into hash map and reuse it for giving search results. But for search using string methods or RegEx, we need to perform the entire search process for every term
 
 Improvements
+
 In order to handle the high loads we can consider placing the files on high speed NAS and divide the search process across multiple nodes with a load balancing middleware
