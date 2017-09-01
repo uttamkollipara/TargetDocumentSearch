@@ -11,6 +11,7 @@ Prompt the user to enter a search term and search method, execute the search, an
 
 Usage
 
+>Clone the project and upload it into an Eclipse IDE
 >For Document Search - Right click on DocumentSearchMain.java -> RunAs - > Java Application.
 Inputs- enter the Search word and when asked select the type of search 
 
